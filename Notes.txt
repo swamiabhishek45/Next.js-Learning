@@ -10,4 +10,4 @@
     - For avoiding potential naming conflicts with future Next.js file conventions.
     - src/app/%5Flib --> It can view page
 7. Route Groups --> (auth)
-8. Layouts / Nested Layouts
+8. Layouts / Nested Layouts / Route Group Layout
