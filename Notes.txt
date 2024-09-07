@@ -3,3 +3,9 @@
 3. Catch all segments --> [[...slug]]
 4. Custom Not Found Page --> src/app/not-found.tsx
 5. file colocation
+6. Private Folders --> src/app/_lib
+    - For separating UI logic from routing logic
+    - For consistently organizing internal files across a project
+    - For sorting and grouping files in code editors
+    - For avoiding potential naming conflicts with future Next.js file conventions.
+    - src/app/%5Flib --> It can view page
