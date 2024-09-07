@@ -2,3 +2,4 @@
 2. Dynamic Routing / Nested Dynamic Routing--> [slug] 
 3. Catch all segments --> [[...slug]]
 4. Custom Not Found Page --> src/app/not-found.tsx
+5. file colocation
