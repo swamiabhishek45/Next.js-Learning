@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 export default function About({
     params,
 }: {
@@ -6,5 +8,8 @@ export default function About({
         no: string;
     };
 }) {
+    if(parseInt(params.no) > 1000){
+        notFound();
+    }
     return <h1>Feedback {params.no} of product {params.productId} </h1>;
 }
