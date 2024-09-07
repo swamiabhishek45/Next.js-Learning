@@ -9,3 +9,4 @@
     - For sorting and grouping files in code editors
     - For avoiding potential naming conflicts with future Next.js file conventions.
     - src/app/%5Flib --> It can view page
+7. Route Groups --> (auth)
