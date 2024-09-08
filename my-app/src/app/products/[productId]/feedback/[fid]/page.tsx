@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-export default function About({
+export default function Fid({
     params,
 }: {
     params: {

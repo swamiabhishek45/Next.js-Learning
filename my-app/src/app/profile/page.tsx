@@ -1,3 +1,3 @@
-export default function About() {
+export default function Profile() {
     return <h1>Profile Page!</h1>;
 }
