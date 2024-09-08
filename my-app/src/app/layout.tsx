@@ -2,7 +2,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: {
-        absolute: "",
+        // absolute: "",
         default: "Next.js", // jaha kuch nahi waha ye hai
         template: "%s | Next.js" // kuch | Next.js
     },
