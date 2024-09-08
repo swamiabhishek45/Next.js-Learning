@@ -3,9 +3,9 @@ import Link from "next/link";
 export default function Home(){
     return (
         <>
-            <h1>Home Page</h1>
+            <h1 className="text-3xl">Home Page</h1>
 
-            <div>
+            <div className="text-blue-400">
                 <li><Link href="/about">About</Link></li>
                 <li><Link href="/blog">Blog</Link></li>
                 <li><Link href="/dashboard">Dashboard</Link></li>

@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "Authentication"
+}
+
 export default function AuthLayout({
     children,
 }: {
@@ -5,7 +9,7 @@ export default function AuthLayout({
 }) {
     return (
         <>
-            <h2>Inner Layout</h2>
+            <h2 className="text-xl">Inner Layout</h2>
             {children}
         </>
     );

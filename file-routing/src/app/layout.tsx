@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import './global.css'
 
 export const metadata: Metadata = {
     title: {
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body>
+            <body className="m-2">
                 <header
                     style={{ backgroundColor: "lightblue", padding: "1rem" }}
                 >
