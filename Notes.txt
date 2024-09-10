@@ -25,3 +25,4 @@
     - template.tsx
     - not-found.tsx
     - loading.tsx
+16. Loading UI
