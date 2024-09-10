@@ -14,5 +14,14 @@
 9. Routing Metadata
 10. title Metadata
 11. Link component Navigation
-12. Active Links
+12. Active Links --> usePathname()
 13. Navigating Programmatically
+14. Templates 
+    - Templates are similar to layouts in that they wrap each child layout or page
+    - But, with Templates, when a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, state is not preserved, and effects are re-synchronized
+15. Special files
+    - page.tsx
+    - layout.tsx
+    - template.tsx
+    - not-found.tsx
+    - loading.tsx
