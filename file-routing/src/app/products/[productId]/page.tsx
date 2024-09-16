@@ -6,6 +6,8 @@ type Props = {
     };
 };
 
+
+
 export const generateMetadata = async ({
     params,
 }: Props): Promise<Metadata> => {
@@ -14,6 +16,8 @@ export const generateMetadata = async ({
             resolve(`iphone ${params.productId}`);
         }, 100);
     });
+
+    
 
     return {
         title: `Product ${title}`,

@@ -13,10 +13,10 @@ export default function Fid({
         fid: string;
     };
 }) {
-    const randomInt = getRandomInt(2);
-    if (randomInt === 1) {
-        throw new Error("Error loading feedback...");
-    }
+    // const randomInt = getRandomInt(2);
+    // if (randomInt === 1) {
+    //     throw new Error("Error loading feedback ID");
+    // }
 
     if (parseInt(params.fid) > 1000) {
         notFound();
