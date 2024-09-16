@@ -20,9 +20,11 @@
     - Templates are similar to layouts in that they wrap each child layout or page
     - But, with Templates, when a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, state is not preserved, and effects are re-synchronized
 15. Special files
-    - page.tsx
     - layout.tsx
     - template.tsx
-    - not-found.tsx
+    - error.tsx
     - loading.tsx
+    - not-found.tsx
+    - page.tsx
 16. Loading UI
+17. 

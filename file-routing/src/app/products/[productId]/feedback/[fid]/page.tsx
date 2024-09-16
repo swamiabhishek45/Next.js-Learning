@@ -1,3 +1,4 @@
+"use client";
 import { notFound } from "next/navigation";
 
 function getRandomInt(count: number) {
@@ -16,7 +17,7 @@ export default function Fid({
     if (randomInt === 1) {
         throw new Error("Error loading feedback...");
     }
-    
+
     if (parseInt(params.fid) > 1000) {
         notFound();
     }
