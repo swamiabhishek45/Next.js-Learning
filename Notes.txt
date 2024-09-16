@@ -1,7 +1,9 @@
 1. Routing / Nested Routing --> folder name means routes inside page.tsx file
 2. Dynamic Routing / Nested Dynamic Routing--> [slug] 
 3. Catch all segments --> [[...slug]]
+
 4. Custom Not Found Page --> src/app/not-found.tsx
+
 5. file colocation
 6. Private Folders --> src/app/_lib
     - For separating UI logic from routing logic
@@ -9,13 +11,17 @@
     - For sorting and grouping files in code editors
     - For avoiding potential naming conflicts with future Next.js file conventions.
     - src/app/%5Flib --> It can view page
-7. Route Groups --> (auth)
+
+7. Route Groups --> ()
 8. Layouts / Nested Layouts / Route Group Layout
+
 9. Routing Metadata
 10. title Metadata
+
 11. Link component Navigation
 12. Active Links --> usePathname()
 13. Navigating Programmatically
+
 14. Templates 
     - Templates are similar to layouts in that they wrap each child layout or page
     - But, with Templates, when a user navigates between routes that share a template, a new instance of the component is mounted, DOM elements are recreated, state is not preserved, and effects are re-synchronized
@@ -27,4 +33,6 @@
     - not-found.tsx
     - page.tsx
 16. Loading UI
-17. 
+
+17. Handling Errors
+    - error.tsx file will handle errors for all its nested child elements
