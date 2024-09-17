@@ -36,3 +36,7 @@
 
 17. Handling Errors
     - error.tsx file will handle errors for all its nested child elements
+
+20. Parallel Routes -- use @folder (slots)
+ - Independent Route Handling
+ - Sub-navigation in Routes
