@@ -1,0 +1,6 @@
+1. Next.js Benifits over recreated
+    - Architecture: Client and Server components
+    - Rendering: 
+        - Client-side Rendering: Pages send to client and then renders
+        - Server-side Rendering: Pages render on server and send to client (It improves SEO)
+        - Routing: file-based routing
