@@ -4,7 +4,7 @@ const Hello = () => {
     
   return (
     <div>
-      Hello
+      Hello component - Hey!
     </div>
   )
 }
